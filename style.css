@@ -1,0 +1,113 @@
+.headerx {
+    width:100%;
+    height: 100%;
+    padding-bottom: 35px;
+    background-image: url(Images/mainPageBackground\ \(3\).webp);
+    background-repeat: no-repeat; 
+     /* background-size: cover; */
+  }
+  .signin {
+    margin-left: 200px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 0px 20px;
+  }
+  .quote {
+    margin: 200px 300px;
+    color:black;
+   
+  }
+  img{
+    width: 270px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  main{
+    padding-top: 100px;
+    background-image: url("https://imgs.search.brave.com/wguItmLJezWUxm5VRj2s26vuqm5iXUIiAKzN8gOQwl0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA3/OTU1NDA0Ni9waG90/by9tZWRpY2FsLWJh/Y2tncm91bmQud2Vi/cD9iPTEmcz0xNzA2/NjdhJnc9MCZrPTIw/JmM9cDVXNVhULXFV/WlpyM0g2QjZyb2h0/UWlCMjFjYm8tSHhm/VThzaUxieGxXZz0");
+  background-size: cover;
+  background-repeat: no-repeat;    
+  }
+  /* Image hover style start */
+  .container2 {
+position: relative;
+width: 100%;
+height: 100%;
+}
+
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0.2;
+right: 0;
+height: 100%;
+width: 93%;
+opacity: 0;
+transition: .5s ease;
+background-color: #008CBA;
+border-radius: 10px;
+}
+
+.container2:hover .overlay {
+opacity: 0.7;
+}
+
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+/* Image hover style end */
+
+.section1{
+height: 400px;
+background-color: antiquewhite;
+}
+.section2{
+height: 400px;
+background-color:bisque;
+}
+.section3{
+height: 400px;
+background-color:cornsilk;
+}
+.subpage{
+padding:50px;
+}
+nav div a{
+color:black;
+}
+nav h1{
+display: inline;
+}
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-size: 20px;
+/* margin: 20px; */
+padding: 20px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+color:red;
+font-size: 21px;
+transition: 0.5s;
+text-decoration: none;
+}

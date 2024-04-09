@@ -1,8 +1,13 @@
-.headerx {
+
+ body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ 
+ .headerx {
     width:100%;
     height: 100%;
     padding-bottom: 35px;
-    background-image: url(Images/mainPageBackground\ \(3\).webp);
+    background-image: url("Images/mainPageBackground\ \(3\).webp");
     background-repeat: no-repeat; 
      /* background-size: cover; */
   }
@@ -25,7 +30,7 @@
   }
   main{
     padding-top: 100px;
-    background-image: url("https://imgs.search.brave.com/wguItmLJezWUxm5VRj2s26vuqm5iXUIiAKzN8gOQwl0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA3/OTU1NDA0Ni9waG90/by9tZWRpY2FsLWJh/Y2tncm91bmQud2Vi/cD9iPTEmcz0xNzA2/NjdhJnc9MCZrPTIw/JmM9cDVXNVhULXFV/WlpyM0g2QjZyb2h0/UWlCMjFjYm8tSHhm/VThzaUxieGxXZz0");
+    background-image: url("Images/maincssbaground.webp");
   background-size: cover;
   background-repeat: no-repeat;    
   }
@@ -76,17 +81,21 @@ text-align: center;
 .section1{
 height: 400px;
 background-color: antiquewhite;
+border-radius: 10px;
 }
 .section2{
 height: 400px;
 background-color:bisque;
+border-radius: 10px;
 }
 .section3{
 height: 400px;
 background-color:cornsilk;
+border-radius: 10px;
 }
 .subpage{
-padding:50px;
+padding:100px;
+border-radius: 15px;
 }
 nav div a{
 color:black;
@@ -106,8 +115,13 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-color:red;
+color:rgb(140, 252, 75);
 font-size: 21px;
 transition: 0.5s;
 text-decoration: none;
+}
+/* disease for list  */
+h1{
+  text-align: center;
+  color: rgb(1, 81, 82);
 }

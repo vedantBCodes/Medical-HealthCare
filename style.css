@@ -133,3 +133,22 @@ h1{
   margin-left: 100px;
   padding-right: 80px;
 }
+
+/* Card hovering code */
+
+.card .read-more:hover{
+  font-size: 14px;
+}
+
+.card:hover{
+  box-shadow: 8px 8px 8px rgb(183, 183, 220);
+  transform:scale(1.05);
+}
+
+.card{
+height:200px;
+width:300px;
+border:1px solid black;
+transition:.3s;
+margin: 3rem;
+}

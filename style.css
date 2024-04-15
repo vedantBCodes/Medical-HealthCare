@@ -20,7 +20,12 @@
 
   main{
     padding-top: 100px;
+<<<<<<< HEAD
     /* background-image: url("Images/maincssbaground.webp"); */
+=======
+    background-image: url("Images/maincssbaground.webp");
+    /* background-color: rgb(237, 232, 226); */
+>>>>>>> 77e65ccad139cfb4afab560b6577f9cd214993e7
   background-size: cover;
   background-repeat: no-repeat;    
   }
@@ -93,8 +98,11 @@ text-decoration: none;
   transform:scale(1.05);
 }
 
+.card img{
+  height: 200px;
+}
 .card{
-height:200px;
+height:120px;
 width:300px;
 border:1px solid black;
 transition:.3s;

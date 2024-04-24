@@ -1,111 +1,4 @@
 
- /* body{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- }
- 
- 
-  .headerx nav a{
-    margin-left: 50px;
-  }
-  .signin {
-    margin-left: 100px;
-    border: 2px solid black;
-    background-color: antiquewhite;
-    border-radius: 5px;
-    padding-right: 40px;
-  }
-  .quote {
-    position: absolute;
-    width: 70vh;
-    top: 200px;
-    left: 80px;
-    color:black;
-   
-  }
-  .container-fluid img{
-    height: 300px;
-    border-radius: 10px;
-  }
-  main{
-    padding-top: 100px;
-    background-image: url("Images/maincssbaground.webp");
-  background-size: cover;
-  background-repeat: no-repeat;    
-  }
-
-
-  
-
- 
- body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   }
-   
-   
-    .headerx nav a{
-      margin-left: 50px;
-    }
-    .signin {
-      margin-left: 100px;
-      border: 2px solid black;
-      background-color: antiquewhite;
-      border-radius: 5px;
-      padding-right: 40px;
-    }
-  
-    main{
-      padding-top: 100px;
-      background-image: url("Images/maincssbaground.webp");
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-  .section1{
-  height: 400px;
-  background-color: antiquewhite;
-  border-radius: 10px;
-  }
-  .section2{
-  height: 400px;
-  background-color:bisque;
-  border-radius: 10px;
-  }
-  .section3{
-  height: 400px;
-  background-color:cornsilk;
-  border-radius: 10px;
-  }
-  .subpage{
-  padding:100px;
-  border-radius: 15px;
-  }
-  /* nav div a{
-  color:black;
-  }
-  nav h1{
-  display: inline;
-  }
-  nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 20px;
-  /* margin: 20px; */
-  /* padding: 20px;
-  } */
-  /* nav a{
-      text-decoration: none;
-  }
-  nav a:hover{
-  color:rgb(140, 252, 75);
-  font-size: 21px;
-  transition: 0.5s;
-  text-decoration: none;
-  } */ 
-  /* disease for list  */
-  /* h1{
-    text-align: center;
-    color: rgb(1, 81, 82);
-  } */
   
   /* code for dropdown hover */
   
@@ -130,6 +23,7 @@
   .card img{
     height: 200px;
   }
+
   .card{
   height:120px;
   width:300px;
@@ -161,31 +55,6 @@
     margin: 0px;
     padding: 0px;
   }
-  .nav-item{
-    font-size: 20px;
-  }
-  .nav-item:hover{
-    opacity: 0.5;
-  }
-  /* #secondSubPage{
-    position: relative;
-    bottom:30px;
-    border-radius: 10px;
-  }
-  .quote {
-    position: relative;
-    bottom: 250px;
-    left: 700px;
-    width: 45vh;
-    font-size: 25px;
-    
-    color:black;
-   
-  } */
-  /* main{
-    position: relative;
-    bottom: 220px;
-  } */
   #appointment{
     font-size: 30px;
     padding: 50px;
@@ -224,9 +93,6 @@
   }
   #newBorn{
     height: 200px;
-  }
-  .navbar{
-    /* background-color: white; */
   }
   
 
@@ -275,21 +141,7 @@ text-align: center;
 }
 /* Image hover style end */
 
-.section1{
-height: 400px;
-background-color: antiquewhite;
-border-radius: 10px;
-}
-.section2{
-height: 400px;
-background-color:bisque;
-border-radius: 10px;
-}
-.section3{
-height: 400px;
-background-color:cornsilk;
-border-radius: 10px;
-}
+
 .subpage{
 padding:100px;
 border-radius: 15px;
@@ -305,21 +157,19 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 font-size: 20px;
-/* margin: 20px; */
 padding: 20px;
 }
 nav a{
     text-decoration: none;
 }
 nav a:hover{
-color:rgb(140, 252, 75);
-font-size: 21px;
-transition: 0.5s;
 text-decoration: none;
 }
+
+
 /* disease for list  */
+
 h1{
-  /* text-align: center; */
   color: rgb(1, 81, 82);
 }
 
@@ -354,4 +204,121 @@ width:300px;
 border:1px solid black;
 transition:.3s;
 margin: 3rem;
+}
+
+nav , .homePage , main{
+  background-color: rgb(238, 236, 234);
+}
+main{
+  padding: 30px 100px;
+  /* padding: 30px; */
+  border-radius: 10px;
+  
+}
+.secondSubpage{
+  border-radius: 10px;
+  background-color: rgb(246, 242, 242);
+  box-shadow: 8px 8px 8px 8px rgb(138, 136, 136);
+}
+
+.thirdSubpage{
+  margin: 30px 150px;
+  height: 350px;
+  border-radius: 10px;
+  padding-bottom: 100px;
+  background-color: rgb(237, 234, 234);
+  font-size: 20px;
+}
+.thirdSubpagePartOne{
+  position: relative;
+  top: 80px;
+  left: 50px;
+
+}
+.thirdSubpagePartOne > input{
+
+ padding:  10px;
+ border-radius: 10px;
+ border: 2px solid blue;
+ color: blue;
+
+}
+.thirdSubpagePartOne > input:hover{
+  color: white;
+  background-color: blue;
+  transition: 1s;
+}
+.thirdSubpage  img{
+  /* border-top-right-radius: 10px; */
+  height: 348px;
+  position: relative;
+  left: 110px;
+}
+
+/* Styling community subpage */
+/* Start */
+
+.RoadmapGuiderCommunity  img{
+  width: 250px;
+  position: relative;
+  left: 30px;
+}
+/* End */
+.skillsPage{
+  background-color: rgb(234, 234, 228);
+  background-color: #ded9d9;
+  /* background-color: #d5d2d0; */
+}
+.emailBox{
+  width: 350px;
+  height: 45px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+.emailBox:hover{
+  border: 2px solid blue;
+  transition: 0.5s;
+}
+.subscribeBox{
+  padding: 0px 10px;
+  height: 45px;
+  color: blue;
+  border:2px solid blue;
+  border-radius: 5px;
+}
+.subscribeBox:hover {
+  color: white;
+  background-color: blue;
+  transition: 1s;
+}
+
+.atag{
+  color: black;
+}
+
+.atag:hover{
+  text-decoration: none;
+  color:black
+}
+.copyrightLine{
+  font-size: 20px;
+  padding: 10px 0px;
+  background-color: rgb(230, 227, 224);
+  position: relative;
+  top: 50px;
+  margin: 0px;
+}
+.logo{
+  width: 35px;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.communityText{
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px 6px rgb(231, 228, 228);
 }

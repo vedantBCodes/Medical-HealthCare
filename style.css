@@ -269,29 +269,6 @@ main{
   background-color: #ded9d9;
   /* background-color: #d5d2d0; */
 }
-.emailBox{
-  width: 350px;
-  height: 45px;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: white;
-}
-.emailBox:hover{
-  border: 2px solid blue;
-  transition: 0.5s;
-}
-.subscribeBox{
-  padding: 0px 10px;
-  height: 45px;
-  color: blue;
-  border:2px solid blue;
-  border-radius: 5px;
-}
-.subscribeBox:hover {
-  color: white;
-  background-color: blue;
-  transition: 1s;
-}
 
 .atag{
   color: black;

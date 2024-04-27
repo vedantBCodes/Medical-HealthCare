@@ -48,7 +48,7 @@
                 </li>
                 
                 <li class="nav-item logIn">
-                  <a class="nav-link active " aria-current="page" href="signInPage.html">Log In</a>
+                  <input type="submit" value="Sign In" id="signInButton">
                 </li>
               
             </div>
@@ -269,6 +269,50 @@
 </div>
 
 
+ <!-- Sign In Subpage -->
+
+ <div class="container ">
+
+  <div class="form-box SignInContainer">
+    <img src="Images/crossIcon.png" alt="" id="crosIcon">
+    <h1 id="title">Sign Up</h1> <br> <br>
+
+    <form id="form">
+
+      <div class="input-group">
+        <div class="input-field" id="namefield"> &nbsp;
+          <i class="fa-solid fa-user"></i> &nbsp; &nbsp;
+          <input type="text" placeholder="Name" class="inputBox">
+        </div>
+        <br>
+
+        <div class="input-group">
+          <div class="input-field"> &nbsp;
+            <i class="fa-solid fa-envelope"></i> &nbsp; &nbsp;
+            <input type="email" placeholder="email" class="inputBox">
+          </div>
+          <br>
+
+          <div class="input-group">
+            <div class="input-field"> &nbsp;
+              <i class="fa-solid fa-key"></i> &nbsp; &nbsp;
+              <input type="password" placeholder="password " class="inputBox">
+            </div> <br> <br>
+          </div>
+
+        </div>
+        <div class="btn-filed">
+          <button type="button" id="signupBtn">Sign Up</button>
+          <button type="button" id="signinBtn" class="disable">sign in</button>
+        </div>
+
+    </form>
+  </div>
+</div>
+
+<!-- Linking javascript file -->
+
+<script src="script.js"></script>
 
     <!-- Bootstrap js file -->
     <script
